@@ -8,6 +8,7 @@ const roomService = {
             ownerId,
             isPublic,
             maxNumberOfPlayersInRoom: maxNumberOfPlayers,
+            waitTimeInSeconds: 10
         };
 
         try {
